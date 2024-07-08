@@ -1,0 +1,31 @@
+{
+    "id": 2,
+    "uid": "OkpmPupnz",
+    "orgId": 1,
+    "name": "PostgreSQL",
+    "type": "postgres",
+    "typeLogoUrl": "",
+    "access": "proxy",
+    "url": "timescale:5432",
+    "password": "postgres",
+    "user": "postgres",
+    "database": "ecom",
+    "basicAuth": false,
+    "basicAuthUser": "",
+    "basicAuthPassword": "",
+    "withCredentials": false,
+    "isDefault": false,
+    "jsonData": {
+        "postgresVersion": 1412,
+        "sslmode": "disable",
+        "tlsAuth": false,
+        "tlsAuthWithCACert": false,
+        "tlsConfigurationMethod": "file-path",
+        "tlsSkipVerify": true
+    },
+    "secureJsonFields": {
+        "password": true
+    },
+    "version": 6,
+    "readOnly": false
+}
